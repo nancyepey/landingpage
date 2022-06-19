@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+head {
+    background-image: url('images/bg-hero-desktop.svg');
+    /* width: 100%; */
+    /* height: 500px; */
+    width: 100vh;
+    height: 80vh;
+}
+
+header {
+    padding: 2%;
+    height: 20%;
+    margin: 14px;
+}
+
+header ul {
+    display: flex;
+  justify-content: space-between;
+}
+
+header ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+.community {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.com_left {
+    width: 40%;
+    padding: 30px;
+}
+
+.com_right {
+    width: 60%;
+    /* padding: 30px; */
+    /* background-image: url(images/illustration-mockups.svg);
+    background-size: cover; */
+    height: 100%;
+    /* margin-right: 50px; */
+}
