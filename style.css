@@ -83,7 +83,8 @@ header ul li button {
 .talk {
     width: 70%;
     padding: 40px;
-    background-image: url('./images/illustration-mockups.svg') !important;
+    background-repeat: no-repeat;
+    /* background-image: url('./images/illustration-mockups.svg') !important; */
 }
 
 
