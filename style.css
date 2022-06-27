@@ -143,6 +143,10 @@ figure {
     max-width: 100%;
 }
 
+.seclast{
+    margin-bottom: 10%;
+}
+
 .end {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     height: 100px;
@@ -155,7 +159,11 @@ figure {
     margin-top: 10%;
     background-color: white;
     margin-bottom: 20px;
+    margin-top: 20px;
     padding: 20px;
+    position: absolute;
+    left: 50vh;
+    bottom: -124%;
 
 }
 
@@ -179,10 +187,11 @@ footer {
 .cols {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 6%;
     padding-top: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
     width: 100vh;
-
+    padding-bottom: 2%;
 }
 
 .col1 {
@@ -192,25 +201,25 @@ footer {
 }
 
 .col2 {
-    padding: 4%;
+    padding: 2%;
     margin-right: 60px;
-    padding-top: 60px;
+    padding-top: 55px;
     margin-left: 40px;
 }
 
 
 .col3 {
-    padding: 4%;
+    padding: 2%;
     margin-right: 60px;
-    padding-top: 60px;
+    padding-top: 55px;
     margin-left: 40px;
 }
 
 
 .col4 {
-    padding: 4%;
+    padding: 2%;
     margin-right: 60px;
-    padding-top: 60px;
+    padding-top: 55px;
     margin-left: 40px;
 }
 
@@ -223,4 +232,16 @@ footer {
     
 }
 
+.loc {
+    display: flex;
+    padding: 2px;
+}
 
+.icon {
+    padding: 10px;
+}
+
+.copyright {
+    padding: 2%;
+    right: 2px;
+}
