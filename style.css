@@ -9,6 +9,10 @@
     /* overflow-x: hidden; */
 }
 
+/* body {
+    width: 1440px;
+} */
+
 .heading {
     background-image: url('./images/bg-hero-desktop.svg');
     max-width: 100%;
@@ -245,3 +249,65 @@ footer {
     padding: 2%;
     right: 2px;
 }
+
+
+
+@media screen and (max-width:992px) {
+    
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    body, .heading {
+        width: fit-content;
+    }
+
+    .heading {
+        height: fit-content;
+    }
+
+    header {
+        padding: 2%;
+    }
+
+    .flow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flow .community {
+        width: 100vh;
+    }
+
+    .sec {
+        display: grid;
+        grid-template-areas: 'a'
+                             'b';
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .sec .growright, .sec .growleft2 {
+        grid-area: 'a';
+    }
+
+    .sec .growleft1, .sec .growright2, .sec .growleft1 {
+        grid-area: 'b';
+    }
+
+    .end {
+        left: 50vh;
+        bottom: -100%;
+    
+    }
+
+
+}
+
+
+@media screen and (max-width:992px) {
+    
+}
+
