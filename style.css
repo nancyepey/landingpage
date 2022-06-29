@@ -260,12 +260,14 @@ footer {
 
 
 @media screen and (max-width:800px) {
-    body, .heading {
-        width: fit-content;
-    }
+    /* body, .heading {
+        width: 100vh;
+    } */
 
     .heading {
-        height: fit-content;
+        /* height: fit-content; */
+        width: fit-content;
+        margin-bottom: 20px;
     }
 
     header {
@@ -273,6 +275,8 @@ footer {
     }
 
     .flow {
+        margin: auto;
+        justify-items: center;
         display: flex;
         flex-direction: column;
     }
@@ -285,22 +289,41 @@ footer {
         display: grid;
         grid-template-areas: 'a'
                              'b';
-        width: fit-content;
+        width: 50%;
         height: fit-content;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 
     .sec .growright, .sec .growleft2 {
-        grid-area: 'a';
+        grid-area: a;
+        padding-left: 15%;
+        height: 80%;
     }
 
     .sec .growleft1, .sec .growright2, .sec .growleft1 {
-        grid-area: 'b';
+        grid-area: b;
+        max-height: 20%;
     }
 
     .end {
-        left: 50vh;
-        bottom: -100%;
+        width: max-content;
+        left: 15vh;
+        bottom: -135%;
     
+    }
+
+    footer {
+        margin-top: 2%;
+        width: fit-content;
+    }
+
+    .cols {
+        padding-top: 2%;
+    }
+
+    .cols .col1 {
+        padding-top: 2%;
     }
 
 
