@@ -167,7 +167,7 @@ figure {
     padding: 20px;
     position: absolute;
     left: 50vh;
-    bottom: -124%;
+    bottom: -118%;
 
 }
 
@@ -241,12 +241,18 @@ footer {
 }
 
 .loc {
+    margin-top: 10px;
     display: flex;
     padding: 2px;
+    margin-bottom: 10px;
 }
 
 .icon {
     padding: 10px;
+}
+
+.loc .icon {
+    margin-right: 20px;
 }
 
 .copyright {
@@ -254,6 +260,27 @@ footer {
     right: 2px;
 }
 
+.footerli li {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footerli li:hover {
+    text-decoration: underline;
+}
+
+.footerli li a{
+    color: #fff;
+}
+
+.fa {
+    /* padding: 10px; */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border-color: #fff;
+    display: inline;
+  }
 
 
 @media screen and (max-width:992px) {
