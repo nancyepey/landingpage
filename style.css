@@ -257,7 +257,9 @@ footer {
 
 .copyright {
     padding: 2%;
-    right: 2px;
+    float: right;
+    background-color: #00252E;
+    width: 100vh;
 }
 
 .footerli li {
@@ -280,8 +282,15 @@ footer {
     border-radius: 50%;
     border-color: #fff;
     display: inline;
-  }
+}
 
+#fa li {
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    border: #fff 1px solid;
+    border-radius: 50%;
+}
 
 @media screen and (max-width:992px) {
     
