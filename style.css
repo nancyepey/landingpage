@@ -257,9 +257,9 @@ footer {
 
 .copyright {
     padding: 2%;
-    float: right;
+    /* float: right;
     background-color: #00252E;
-    width: 100vh;
+    width: 100vh; */
 }
 
 .footerli li {
